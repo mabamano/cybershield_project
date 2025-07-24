@@ -1,69 +1,146 @@
-# Welcome to your Lovable project
 
-## Project info
 
-**URL**: https://lovable.dev/projects/a79ac6da-9f55-4239-bfbe-6cc56f0d9823
+# 🛡️ CyberShield Project
 
-## How can I edit this code?
+**An AI‑powered security platform** featuring real-time threat analysis, phishing detection, and interactive defense modules, built with React (Vite + TypeScript) and Python for ML analysis.
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 🚀 Project Overview
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/a79ac6da-9f55-4239-bfbe-6cc56f0d9823) and start prompting.
+CyberShield is designed to safeguard applications through modular, intelligent defenses:
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Chatbot Interface** – Assist users with guided interactions and security checks.
+- **Defense Module** – Upload files/logs ➝ ML-powered `ml_analyzer.py` ➝ visualize results in dashboards.
+- **Phishing Scanner** – Detects phishing threats with advanced heuristics.
+- **UI Toolkit** – Reusable components (navbar, layouts, toast, etc.) for smooth user experiences.
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🧪 Tech Stack
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+| Layer        | Tech & Tools                                     |
+|--------------|--------------------------------------------------|
+| Frontend     | React + Vite + TypeScript + TailwindCSS         |
+| UI Components| Custom design system, Toasts, Animations        |
+| ML Analysis  | Python ML scripts (`ml_analyzer.py`)            |
+| Backend/API  | Vite dev server (or Node/Flask—optional)        |
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 🔍 Live Demo
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+> Available soon!  
+> *(Consider deploying to Vercel or Netlify for easy access.)*
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+## 🛠️ Setup & Usage
+
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/mabamano/cybershield_project.git
+   cd cybershield_project
+````
+
+2. **Install dependencies**
+
+   ```bash
+   npm install
+   ```
+
+3. **Run the dev server**
+
+   ```bash
+   npm run dev
+   ```
+
+   Access at `http://localhost:3000`
+
+4. **(Optional) Run ML analyzer**
+
+   ```bash
+   python ml_analyzer.py
+   ```
+
+   *(Requires Python 3.8+, install required packages for ML processing.)*
+
+---
+
+## 🧩 Module Highlights
+
+* `src/pages/Chatbot.tsx` – Chat interface module
+* `src/components/modules/defense` – File upload, logs, analysis results, and dashboards
+* `src/components/modules/phishing` – In-browser phishing scanner
+* Python: `ml_analyzer.py` integrates analytics with defense UI
+
+---
+
+## 📄 File Structure
+
+```
+/
+├─ public/
+│   └─ assets (favicon, logos)
+├─ src/
+│   ├─ components/
+│   │   ├─ layout/ (Navbar, Footer)
+│   │   ├─ modules/ (chatbot, defense, phishing)
+│   │   └─ ui/ (reusable UI primitives)
+│   ├─ hooks/
+│   └─ pages/ (Chatbot, Defense, Phishing, etc.)
+├─ ml_analyzer.py
+├─ vite.config.ts
+└─ package.json
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🛑 Future Improvements
 
-**Use GitHub Codespaces**
+* [ ] Deploy to Vercel/Netlify for live demo
+* [ ] Add Python-backed backend (Flask/FastAPI) for ML integration
+* [ ] Expand phishing heuristics & add ML‑based detection
+* [ ] Add authentication & user profiles
+* [ ] Setup CI/CD (GitHub Actions) & Docker support
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## 📄 `.gitignore` Suggestions
 
-This project is built with .
+```gitignore
+node_modules/
+dist/
+.env
+.vscode/
+.DS_Store
+bun.lockb
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 🤝 Contributing
 
-Simply open [Lovable](https://lovable.dev/projects/a79ac6da-9f55-4239-bfbe-6cc56f0d9823) and click on Share -> Publish.
+1. Fork the project
+2. Create a branch: `git checkout -b feature/YourFeature`
+3. Commit your changes
+4. Open a Pull Request
 
-## I want to use a custom domain - is that possible?
+---
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+## 📜 License
+
+MIT © 2025 **\[Your Name/Organization]**
+
+---
+
+## 💬 Contact
+
+* Build by **mabamano**
+* GitHub: [mabamano](https://github.com/mabamano)
+* Let me know if you’d like help deploying, writing tests, or integrating a backend! ✨
+
+```
+
+
+
