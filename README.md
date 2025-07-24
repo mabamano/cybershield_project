@@ -129,9 +129,7 @@ bun.lockb
 
 ---
 
-## 📜 License
 
-MIT © 2025 **\[Your Name/Organization]**
 
 ---
 
