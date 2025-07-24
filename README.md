@@ -31,9 +31,9 @@ CyberShield is designed to safeguard applications through modular, intelligent d
 ## 🔍 Live Demo
 
 > Available soon!  
-> *(Consider deploying to Vercel or Netlify for easy access.)*
 
----
+
+
 
 ## 🛠️ Setup & Usage
 
@@ -65,7 +65,7 @@ CyberShield is designed to safeguard applications through modular, intelligent d
 
    *(Requires Python 3.8+, install required packages for ML processing.)*
 
----
+
 
 ## 🧩 Module Highlights
 
