@@ -41,7 +41,8 @@ CyberShield is designed to safeguard applications through modular, intelligent d
    ```bash
    git clone https://github.com/mabamano/cybershield_project.git
    cd cybershield_project
-````
+   ```
+
 
 2. **Install dependencies**
 
