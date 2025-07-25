@@ -22,7 +22,7 @@ const INITIAL_MESSAGES: Message[] = [
 ];
 
 // Hardcoded Gemini API key
-const GEMINI_API_KEY = 'AIzaSyDLMJ2rvQK4ahSzb79owfK5UNKfnKe2EyQ';
+const GEMINI_API_KEY = 'your_api_key';
 
 // Function to get response from Gemini API using the updated endpoint
 const getGeminiResponse = async (message: string): Promise<string> => {
